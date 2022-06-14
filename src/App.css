@@ -21,3 +21,14 @@ body{
 .exercise {
     margin-bottom: 10px;
 }
+
+.expenses {
+  display: grid;
+  row-gap: 4vh;
+}
+
+.expense {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+}
